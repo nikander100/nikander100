@@ -2,9 +2,9 @@
 
 <a href="https://github.com/nikander100/github-readme-stats">
 
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=nikander100&theme=dark)](https://github.com/nikander100/github-readme-stats)
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=nikander100&count_private=true&theme=light)](https://github.com/nikander100/github-readme-stats)
 </a>
-[![Nikander's github stats](https://github-readme-stats.vercel.app/api?username=nikander100&count_private=false&theme=dark)](https://github.com/nikander100/github-readme-stats)
+[![Nikander's github stats](https://github-readme-stats.vercel.app/api?username=nikander100&count_private=true&theme=light)](https://github.com/nikander100/github-readme-stats)
 
 
 <!--
