@@ -2,13 +2,12 @@
 <a href="https://github.com/nikander100/github-readme-stats">
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=nikander100&count_private=true&theme=midnight-purple" />
 </a>
-<a href="https://github.com/nikander100/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=nikander100&layout=compact" />
+<a href="https://github-readme-stats.vercel.app/api/wakatime?username=nikander100">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=nikander100&theme=midnight-purple" />
 </a>
-
 
 [![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=nikander100&count_private=true&theme=midnight-purple&layout=compact)](https://github.com/nikander100/github-readme-stats)
-</a>
+
 
 
 
