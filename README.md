@@ -29,19 +29,19 @@
 ![](https://img.shields.io/badge/OS-MacOS-informational?style=for-the-badge&logo=Apple&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/OS-Windows-informational?style=for-the-badge&logo=Windows&logoColor=white&color=2bbc8a)
 
-![](https://img.shields.io/badge/Language-C-informational?style=flat&logo=C&logoColor=white&color=2bbc8a)
-![](https://img.shields.io/badge/Language-C++-informational?style=flat&logo=C++&logoColor=white&color=2bbc8a)
-![](https://img.shields.io/badge/Language-Git-informational?style=flat&logo=Git&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Language-C-informational?style=for-the-badge&logo=C&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Language-C++-informational?style=for-the-badge&logo=C++&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Language-Git-informational?style=for-the-badge&logo=Git&logoColor=white&color=2bbc8a)
 
-![](https://img.shields.io/badge/Language-Html-informational?style=flat&logo=HTML5&logoColor=white&color=2bbc8a)
-![](https://img.shields.io/badge/Language-Css-informational?style=flat&logo=CSS3&logoColor=white&color=2bbc8a)
-![](https://img.shields.io/badge/Language-JavaScript-informational?style=flat&logo=JavaScript&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Language-Html-informational?style=for-the-badge&logo=HTML5&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Language-Css-informational?style=for-the-badge&logo=CSS3&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Language-JavaScript-informational?style=for-the-badge&logo=JavaScript&logoColor=white&color=2bbc8a)
 
-![](https://img.shields.io/badge/Language-Python-informational?style=flat&logo=Python&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Language-Python-informational?style=for-the-badge&logo=Python&logoColor=white&color=2bbc8a)
 
 # Editors
-![](https://img.shields.io/badge/IDE-VSCode-informational?style=flat&logo=visual-studio-code&logoColor=white&color=2bbc8a)
-![](https://img.shields.io/badge/IDE-Atom-informational?style=flat&logo=Atom&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/IDE-VSCode-informational?style=for-the-badge&logo=visual-studio-code&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/IDE-Atom-informational?style=for-the-badge&logo=Atom&logoColor=white&color=2bbc8a)
 </a>
 
 <!--
