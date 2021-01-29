@@ -22,9 +22,10 @@
 <br><br><br><br><br><br>
 <a href="https://github.com/nikander100/github-readme-stats">
 -->
-![Profile views](https://gpvc.arturio.dev/[nikander100])
+![Profile views](https://shields-io-visitor-counter.herokuapp.com/badge?page=octocat.Spoon-Knife&labelColor=000000&label=Profile_Views&logo=GitHub&logoColor=white&color=2bbc8a&style=for-the-badge)
+
 # Experience
-![](https://img.shields.io/badge/OS-Linux-informational?style=for-the-badge&logo=Linux&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/OS-Linux-informational?style=for-the-badge&labelColor=000000&logo=Linux&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/OS-MacOS-informational?style=for-the-badge&logo=Apple&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/OS-Windows-informational?style=for-the-badge&logo=Windows&logoColor=white&color=2bbc8a)
 
