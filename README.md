@@ -6,7 +6,7 @@
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nikander100&count_private=true&theme=midnight-purple&layout=compact" />
 </a>
 
-[![Nikander's 42 stats](https://badge42.herokuapp.com/api/stats/nvan-der)](https://github.com/JaeSeoKim/badge42)
+[![Nikander's 42 stats](https://badge42.herokuapp.com/api/stats/nvan-der?privacyName=true&darkmode=true)](https://github.com/JaeSeoKim/badge42)
 
 [![Nikander's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=nikander100&theme=midnight-purple)](https://github.com/nikander100/github-readme-stats)
 
