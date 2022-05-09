@@ -8,7 +8,8 @@
 
 [![Nikander's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=nikander100&theme=midnight-purple)](https://github.com/nikander100/github-readme-stats)
 
-[![Nikander's 42 stats](https://badge42.herokuapp.com/api/stats/nvan-der?privacyName=true&darkmode=true)](https://github.com/JaeSeoKim/badge42)
+[![nvan-der's 42 stats](https://badge42.vercel.app/api/v2/cl2yp2w6s003009mhb9kl2emp/stats?cursusId=21&coalitionId=58)](https://github.com/JaeSeoKim/badge42)
+
 
 ![Profile views](https://shields-io-visitor-counter.herokuapp.com/badge?page=octocat.Spoon-Knife&labelColor=000000&label=Profile_Views&logo=GitHub&logoColor=white&color=9645f4&style=for-the-badge)
 
