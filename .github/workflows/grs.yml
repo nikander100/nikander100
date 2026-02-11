@@ -5,10 +5,17 @@ on:
     - cron: "0 0 * * *"
   workflow_dispatch:
 
+# We keep STATIC flags here, but removed THEME and PIN_REPO
+env:
+  # Fallback
+  THEME: catppuccin_mocha
+  STATS_FLAGS: "&show_icons=true&include_all_commits=true&count_private=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage"
+  LANGS_FLAGS: "&layout=compact&langs_count=10"
+  WAKA_FLAGS: "&layout=compact&langs_count=6&display_format=percent"
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     permissions:
       contents: write
 
@@ -19,7 +26,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&theme=catppuccin_mocha
+          options: username=${{ github.repository_owner }}&theme=${{ vars.THEME || env.THEME }}${{ vars.STATS_FLAGS || env.STATS_FLAGS }}
           path: profile/stats.svg
           token: ${{ secrets.PAT_GITHUB_README }}
 
@@ -27,7 +34,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&theme=catppuccin_mocha
+          options: username=${{ github.repository_owner }}&theme=${{ vars.THEME || env.THEME }}${{ vars.LANGS_FLAGS || env.LANGS_FLAGS }}
           path: profile/top-langs.svg
           token: ${{ secrets.PAT_GITHUB_README }}
 
@@ -35,7 +42,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: wakatime
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&display_format=percent&theme=catppuccin_mocha
+          options: username=${{ github.repository_owner }}&theme=${{ vars.THEME || env.THEME }}${{ vars.WAKA_FLAGS || env.WAKA_FLAGS }}
           path: profile/wakatime-stats.svg
           token: ${{ secrets.PAT_GITHUB_README }}
 
@@ -43,13 +50,13 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: pin
-          options: username=readme-tools&repo=github-readme-stats
+          options: username=${{ vars.PIN_USER || 'readme-tools' }}&repo=${{ vars.PIN_REPO || 'github-readme-stats' }}&theme=${{ vars.THEME || env.THEME }}
           path: profile/pin-readme-tools-github-readme-stats.svg
           token: ${{ secrets.PAT_GITHUB_README }}
 
       - name: Stage new files
         run: git add profile/*.svg
-
+          
       - name: Commit changes
         uses: planetscale/ghcommit-action@v0.1.6
         with:
