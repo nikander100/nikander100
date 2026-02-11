@@ -1,17 +1,4 @@
 ### Hi there 👋
-<a href="https://github.com/nikander100/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=nikander100&count_private=true&theme=midnight-purple" />
-</a>
-<a href="https://github.com/nikander100/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nikander100&count_private=true&theme=midnight-purple&layout=compact" />
-</a>
-
-[![Nikander's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=nikander100&theme=midnight-purple)](https://github.com/nikander100/github-readme-stats)
-
-[![nvan-der's 42 stats](https://badge42.vercel.app/api/v2/cl2yp2w6s003009mhb9kl2emp/stats?cursusId=21&coalitionId=58)](https://github.com/JaeSeoKim/badge42)
-
-
-![Profile views](https://shields-io-visitor-counter.herokuapp.com/badge?page=octocat.Spoon-Knife&labelColor=000000&label=Profile_Views&logo=GitHub&logoColor=white&color=9645f4&style=for-the-badge)
 
 # Experience
 ![](https://img.shields.io/badge/OS-Windows-informational?style=for-the-badge&labelColor=000000&logo=Windows&logoColor=white&color=9645f4)
@@ -32,6 +19,24 @@
 ![](https://img.shields.io/badge/IDE-VSCode-informational?style=for-the-badge&labelColor=000000&logo=visual-studio-code&logoColor=white&color=9645f4)
 ![](https://img.shields.io/badge/IDE-Atom-informational?style=for-the-badge&labelColor=000000&logo=Atom&logoColor=white&color=9645f4)
 </a>
+
+
+# Stats
+
+<p align="center">
+  <img src="./profile/stats.svg" width="350" />
+  <img src="./profile/top-langs.svg" width="350" />
+  <br/>
+  <img src="./profile/wakatime-stats.svg" width="710" />
+</p>
+
+
+<!--
+
+[![nvan-der's 42 stats](https://badge42.vercel.app/api/v2/cl2yp2w6s003009mhb9kl2emp/stats?cursusId=21&coalitionId=58)](https://github.com/JaeSeoKim/badge42)
+
+
+![Profile views](https://shields-io-visitor-counter.herokuapp.com/badge?page=octocat.Spoon-Knife&labelColor=000000&label=Profile_Views&logo=GitHub&logoColor=white&color=9645f4&style=for-the-badge)
 
 <!--
 **nikander100/nikander100** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
