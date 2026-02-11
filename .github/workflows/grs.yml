@@ -32,7 +32,7 @@ jobs:
           token: ${{ secrets.PAT_GITHUB_README }}
 
       - name: Generate wakatime card
-        uses: readreadme-tools/github-readme-stats-action@v1me
+        uses: readme-tools/github-readme-stats-action@v1me
         with:
           card: wakatime
           options: username=nikander100&layout=compact&langs_count=6
