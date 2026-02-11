@@ -47,6 +47,9 @@ jobs:
           path: profile/pin-readme-tools-github-readme-stats.svg
           token: ${{ secrets.PAT_GITHUB_README }}
 
+      - name: Stage new files
+        run: git add profile/*.svg
+
       - name: Commit changes
         uses: planetscale/ghcommit-action@v0.1.6
         with:
