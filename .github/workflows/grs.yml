@@ -1,0 +1,59 @@
+name: Update README cards
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Generate stats card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&theme=catppuccin_mocha
+          path: profile/stats.svg
+          token: ${{ secrets.PAT_GITHUB_README }}
+
+      - name: Generate top languages card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&theme=catppuccin_mocha
+          path: profile/top-langs.svg
+          token: ${{ secrets.PAT_GITHUB_README }}
+
+      - name: Generate wakatime card
+        uses: readreadme-tools/github-readme-stats-action@v1me
+        with:
+          card: wakatime
+          options: username=nikander100&layout=compact&langs_count=6
+          path: profile/wakatime-stats.svg
+          token: ${{ secrets.PAT_GITHUB_README }}
+
+      - name: Generate pin card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=readme-tools&repo=github-readme-stats
+          path: profile/pin-readme-tools-github-readme-stats.svg
+          token: ${{ secrets.PAT_GITHUB_README }}
+
+      - name: Commit changes
+        uses: planetscale/ghcommit-action@v0.1.6
+        with:
+          commit_message: "Update README cards"
+          repo: ${{ github.repository }}
+          branch: ${{ github.head_ref || github.ref_name }}
+          # Limit to specific files.
+          file_pattern: 'profile/*.svg' 
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
