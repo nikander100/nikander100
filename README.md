@@ -3,7 +3,6 @@
 # Experience
 ![](https://img.shields.io/badge/OS-Windows-informational?style=for-the-badge&labelColor=000000&logo=Windows&logoColor=white&color=9645f4)
 ![](https://img.shields.io/badge/OS-Linux-informational?style=for-the-badge&labelColor=000000&logo=Linux&logoColor=white&color=9645f4)
-![](https://img.shields.io/badge/OS-MacOS-informational?style=for-the-badge&labelColor=000000&logo=Apple&logoColor=white&color=9645f4)
 
 ![](https://img.shields.io/badge/Language-C-informational?style=for-the-badge&labelColor=000000&logo=C&logoColor=white&color=9645f4)
 ![](https://img.shields.io/badge/Language-C++-informational?style=for-the-badge&labelColor=000000&logo=C++&logoColor=white&color=9645f4)
@@ -17,7 +16,6 @@
 
 # Editors
 ![](https://img.shields.io/badge/IDE-VSCode-informational?style=for-the-badge&labelColor=000000&logo=visual-studio-code&logoColor=white&color=9645f4)
-![](https://img.shields.io/badge/IDE-Atom-informational?style=for-the-badge&labelColor=000000&logo=Atom&logoColor=white&color=9645f4)
 </a>
 
 
