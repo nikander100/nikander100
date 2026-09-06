@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Nikander van der Schee's GitHub Stats, Rank: B+</title>
-        <desc id="descId">Total Stars Earned: 5, Total Commits  : 1367, Total PRs: 124, Total PRs Merged: 118, Merged PRs Percentage: 95.16, Total PRs Reviewed: 2, Total Issues: 99, Total Discussions Started: 1, Total Discussions Answered: 0, Contributed to (last year): 9</desc>
+        <desc id="descId">Total Stars Earned: 5, Total Commits  : 1367, Total PRs: 125, Total PRs Merged: 118, Merged PRs Percentage: 94.40, Total PRs Reviewed: 2, Total Issues: 99, Total Discussions Started: 1, Total Discussions Answered: 0, Contributed to (last year): 10</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 119.09067682769292;
+        stroke-dashoffset: 118.93562599123118;
       }
     }
   
@@ -192,7 +192,7 @@
         x="219.01"
         y="12.5"
         data-testid="prs"
-      >124</text>
+      >125</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
@@ -222,7 +222,7 @@
         x="219.01"
         y="12.5"
         data-testid="prs_merged_percentage"
-      >95.16 %</text>
+      >94.40 %</text>
     </g>
   </g><g transform="translate(0, 125)">
     <g class="stagger" style="animation-delay: 1200ms" transform="translate(25, 0)">
@@ -297,7 +297,7 @@
         x="219.01"
         y="12.5"
         data-testid="contribs"
-      >9</text>
+      >10</text>
     </g>
   </g>
     </svg>
